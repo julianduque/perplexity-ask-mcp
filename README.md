@@ -1,5 +1,7 @@
 # Perplexity Ask MCP Server
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/julianduque/perplexity-ask-mcp)
+
 An MCP server implementation that integrates the Sonar API to provide Claude with unparalleled real-time, web-wide research.
 
 ![Demo](perplexity-ask/assets/demo_screenshot.png)

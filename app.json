@@ -2,11 +2,29 @@
   "name": "server-perplexity-ask",
   "description": "MCP server for Perplexity API integration",
   "repository": "https://github.com/julianduque/perplexity-ask-mcp",
-  "keywords": ["perplexity", "mcp", "server", "action"],
+  "keywords": [
+    "perplexity",
+    "mcp",
+    "server",
+    "action"
+  ],
   "env": {
     "PERPLEXITY_API_KEY": {
       "description": "Perplexity API key",
       "required": true
     }
-  }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 0
+    }
+  },
+  "addons": [],
+  "scripts": {},
+  "stack": "heroku-24"
 }

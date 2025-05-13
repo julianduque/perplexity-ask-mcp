@@ -1,2 +1,2 @@
 web: bash -c
-mcp: node dist/index.js
+mcp-perplexity: node dist/index.js
